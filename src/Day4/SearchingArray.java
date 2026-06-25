@@ -2,7 +2,8 @@ package Day4;
 
 // searching in array :
 //  1. Linear search : Searching the element one by one going through each indexes from 0 till n
-//  2. Binary search : It is used to find element in a sorted array
+//  2. Binary search : It is used to find element in a sorted array, first it divides the array,
+//  then compare the middle element with the required, if its bigger then look for mid-1 or if its smaller look for n+1
 //  3.
 
 

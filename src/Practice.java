@@ -1,44 +1,25 @@
+/*
+    This : Its used to refer the class variable or variables referenced with an object
+    Static keyword : variable, method and class can be named as static, which doesn't require object creation and can be accessed directly via class name
+    > Static method can access static variable but when trying to access normal or non static variables it requires object creation
+    > any method can access static method or variable
+    Final : Final keyword act as constant when a variable is declared as final its value cann't be changed
+    Super : Super keyword is mostly used during method overriding when we are try to access the overriden method
+ */
 
-// Data abstraction : Hiding the implementation and just showing the functionality
-// Security and privacy
+class NewProgram {
+    private String name;
 
-// Abstract class
-// Interface
-
-// Rules for interface:
-// Variables are Static and final
-// Methods - abstract/ but can also have static or default
-// Methods are public
-// Its contains only deceleration
-// A class extends a class, class implements interface , an interface extends interface
-// Supports multiple inheritance
-
-interface Int1 {
-    int xa = 100;
-    int y = 200;
-    void display();
-
-    static void show(){
-        System.out.println("This is a static method");
+    public void setName(String name) {
+        this.name = name;
     }
 
-    default void show2(){
-        System.out.println("This is default method");
+    public String getName() {
+        return name;
     }
 
-}
-
-public class Practice implements Int1{
-    public void display(){
-        System.out.println("This is interface method or abstract method");
+    public void display() {
+        System.out.println("This display method is from parent class");
     }
-    public static void main(String[] args){
 
-        Practice p1 = new Practice();
-        p1.display();
-        System.out.println("x : " + xa);
-        System.out.println("y : " + y);
-        Int1.show();
-        p1.show2();
-    }
 }

@@ -6,7 +6,8 @@ package day6;
     // There is no global variable as everything we need to define inside class
 
         //  this is a reference variable that refers to the current object of a class.
-
+// Variable Shadowing -- when a local variable shadows or hides the class variable,
+        //      to overcome this we use "this" keyword
 
 public class ThisKeywordDemo {
     int i,j;

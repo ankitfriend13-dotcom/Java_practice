@@ -5,7 +5,7 @@ package Day7;
     // Extend keyword is used to inherit the parent class
         // Types :
         //  1. Single
-        //  2. Multi lvele
+        //  2. Multi level
         //  3. Hierarchy
         //  4. Multiple
 

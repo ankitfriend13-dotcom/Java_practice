@@ -14,6 +14,7 @@ package day6;
 //  > Static method cann't access non-static variables directly, they need object to access non-static variables
 //  >   Non-static methods can access anything (Static or non static)
 //  > Static variable values can be changed by using any object or where it was defined
+// > static method can be called directly by class name ex - ClassName.static_methodname()
 
 public class StaticKeywordDemo {
     static int a = 10;          // Static variable

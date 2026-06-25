@@ -1,10 +1,15 @@
 package day8;
 
-// Super keyword : used to access overriden variable or method
+// Super keyword : used to access overriden variable or method or parent class constructors
 
 // Rules
     //  1. Super can be used to access prior parent class only
     //  2. Super keyword cann't be used in multiple inheritance or interface
+
+        // 1. To invoke parent class methods: Used during overriding, exactly like you said (e.g., super.display()).
+        // 2. To invoke parent class constructors: Using super() inside a child constructor.
+                // This must be the very first statement in the constructor.
+        // 3. To access parent class variables: If the child and parent have variables with the same name.
 
 class C1 {
     int x = 100;

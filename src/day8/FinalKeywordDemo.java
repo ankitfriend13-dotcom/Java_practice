@@ -6,7 +6,7 @@ package day8;
 
     // 1. Variables - values cann't be changed
     // 2. Method - cann't override the method // we can do overloading
-    // 3. class - cann't inherit anymore
+    // 3. class - cann't inherit anymore - For example, Java's String class is final.
 
 class Test {
     final int x = 100;

@@ -41,8 +41,12 @@ public class ConstructorDemo {
         name = n;
         System.out.println("Constructor called");
     }
-
+    void display() {
+        System.out.println("Name : "+ name);
+        System.out.println("Id : " + id);
+    }
     public static void main(String[] args){
         ConstructorDemo cons = new ConstructorDemo(101, "john");
+        cons.display();     // inorder to see the output form cons, we need to called the method via cons object
     }
 }

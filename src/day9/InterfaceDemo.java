@@ -3,7 +3,7 @@ package day9;
 // Interface : Its a blue print of class
 
 /*
-    1.  It contains static and final variables
+    1.  Variables declared inside interface are static and final variables y default
     2.  It contains abstract methods ( also allowed static/ default methods from java8)
     3.  Abstract method - contains signature but no body (un-implemented method)
     4.  Method of interface are public
@@ -40,7 +40,7 @@ public class InterfaceDemo implements Shape{
     }
 
     void triangle(){
-        System.out.println("this is triagnle");
+        System.out.println("this is triangle");
     }
 
     public static void main(String[] args){

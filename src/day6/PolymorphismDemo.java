@@ -6,7 +6,9 @@ package day6;
         //  1. Methods
         //  2. Constructors
 
-
+// Two types of polymorphism are there :
+    //  1. Compile type polymorphism : Method overloading
+    //  2. Run time polymorphism : Method overriding: In this a child class overrides a parent class method
 // Method overloading
     //  Method name should be same
     //  Number of parameters, data types of parameters, or sequence of parameters can be changed
